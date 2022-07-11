@@ -31,8 +31,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://pastebin.com/XD0KJicW
-").text
+    httpCaht = requests.get("https://pastebin.com/XD0KJicW").text
 
     if id in httpCaht: 
 
